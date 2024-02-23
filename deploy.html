@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deploy Contract</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.2.11/dist/web3.min.js"></script>
+</head>
+<body>
+    <h1>Deploy Contract</h1>
+    <form id="deploy-form">
+        <label for="abi">Contract ABI:</label><br>
+        <textarea id="abi" rows="10" cols="50"></textarea><br>
+        <label for="bytecode">Contract Bytecode:</label><br>
+        <textarea id="bytecode" rows="10" cols="50"></textarea><br>
+        <input type="submit" value="Deploy">
+    </form>
+    <script src="deploy.js"></script>
+</body>
+</html>
